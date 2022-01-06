@@ -76,7 +76,7 @@ p12[[1,2]] <- p12[[1,2]] & theme_light()+
 p12
 
 dev.off()
-ggsave("saving6.pdf", p12)
+ggsave("saving.pdf", p12)
 
 
 grid.arrange(p1, p2, nrow = 1)
